@@ -1,0 +1,64 @@
+.fosou{
+	text-align: center;
+}
+.fosou>.fosoucon>input[type="text"]{
+	width: 532px;
+	height: 47px;
+	line-height: 47px;
+	border: 1px solid #e2e2e2;
+	border-right: none;
+	color: #333;
+	font-size: 15px;
+		margin-top: -2px;
+}
+.fosou>.fosoucon>input[type="submit"]{
+	color: #fff;
+	width: 120px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bolder;
+	background: #C40D2E;
+	margin-left: -5px;
+
+}
+/*底部内容部分*/
+.qsdibu{
+	width: 100%;
+	/*height: 590px;*/
+	background: #f9f9f9;
+	margin-top: 50px;
+}
+.qsdibu .qsdibucon ul li{
+	list-style: none;
+	margin-left: -40px !important;
+	color: #333;
+	font-size: 11px;
+	margin-top: 5px !important;
+}
+.qsdibu .qsdibucon{
+	margin-left: 70px;
+}
+.qsdibu .qsdibucon>h3{
+	color: #C40D2E;
+	font-size: 16px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.qsdibu .qsdibucon .folxwm{
+	width: 149px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	color: #333;
+	font-size: 15px;
+	border: 1px solid #e2e2e2;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+#fologo{
+	margin-left: 85px;
+	margin-bottom: 20px;
+	
+}

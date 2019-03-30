@@ -1,0 +1,120 @@
+ul li{
+	list-style: none;
+	margin-left: -35px !important;
+}
+.omjheader{
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: #e2e2e2;
+	
+}
+.omjheader .omjheacon{
+	width: 100%;
+	text-align: center;
+}
+.omjheader .omjcaidan01{
+	float: left;
+	margin-left: 20px;
+	color: 15px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.omjheader .omjcaidan01 .dpcaidan{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 200px;
+	height: 582px;
+	text-align: center;
+	background: #fff;
+	display: none;
+}
+.dpcaidancon{
+	margin-top: 70px;
+}
+.dpcaidancon>li h3{
+	color: #000;
+	font-size: 15px;
+	font-weight: bolder;
+	margin-top: 10px;
+}
+/*点击关闭*/
+.omjguanbi{
+	width: 200px;
+	text-align: center;
+	height: 65px;
+	line-height: 65px;
+	color: #C40D2E;
+	font-size: 14px;
+	font-weight: bolder;
+	border-bottom: 1px solid #e2e2e2;
+}
+/*第二个出现的菜单栏*/
+.omjsecond{
+	width: 250px;
+	height: 582px;
+	background: #999;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	display: none;
+}
+.omjsecond>h4{
+	margin-top: 45px;
+	color: #C40D2E;
+	font-size: 13px;
+	font-weight: bolder;
+	
+}
+.omjsecond>ol>li{
+	margin-top: 10px;
+}
+.omjtebie{
+	color: #333;
+	font-size: 15px;
+}
+.omjsousuo{
+	width: 250px;
+	height: 35px;
+	background: #666;
+	line-height: 35px;
+	text-align: center;
+}
+/*缩成小屏的时候*/
+#omjdjsj02{
+	position: absolute;
+	left: 20px;
+	top: 15px;
+	display: none;
+}
+.omjcha{
+	color: #C40D2E;
+	font-size: 16px;
+	font-weight: bolder;
+	position: absolute;
+	left: 20px;
+	display: none;
+}
+/*出现的菜单内容*/
+.caisecond{
+	width: 768px;
+	height: 554px;
+	background: #fff;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+.caisecond>ul>li{
+	color: #333;
+	font-size: 18px;
+	font-weight: bolder;
+	margin-left: -400px !important;
+	border-bottom: 1px solid #e2e2e2;
+	letter-spacing: 2px;
+}

@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>欧米茄首页</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="css/dohangtaio.css"/>
+        <link rel="stylesheet" href="css/oumijia__footer.css"/>
+        <link rel="stylesheet" href="css/__main.css">
+        <link rel="stylesheet" href="css/style - er.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/reset.css" />
+        <!-- <link rel="stylesheet" href="css/mislider.css"/> -->
+        <link rel="stylesheet" href="css/omjheader.css"/>
+       <!--  <link rel="stylesheet" href="css/mislider-skin-cameo.css"/> -->
+    <!--  <script type="text/javascript" src="js/mislider.js" ></script>
+        <script type="text/javascript" src="js/mislider.min.js" ></script> -->
+        <script type="text/javascript" src="js/omjheader.js" ></script>
+        <!-- <script type="text/javascript">
+        $(document).ready(function($){
+        	var slider = $('.mis-stage').miSlider({
+		stageHeight: 380,
+		slidesOnStage: false,
+		slidePosition: 'center',
+		slideStart: 'mid',
+		slideScaling: 150,
+		offsetV: -5,
+		centerV: true,
+		navButtonsOpacity: 1
+	});
+        })
+
+</script> -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery-1.11.1.js"></script>
+        <script type="text/javascript" src="js/script.js" ></script>
+        <script type="text/javascript" src="js/jquery.min.js" ></script>
+        <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    </head>
+    <body>
+    	
+ 
+        <script type="text/javascript">
+//      实时监听屏幕宽度
+        window.addEventListener('load', function() {
+       window.addEventListener('resize', function() {
+//      搜索框部分
+        var winWidth = window.innerWidth;
+      console.log(winWidth);
+          if(winWidth<768){
+            $("body").parent().css("overflow-x","hidden");
+        $(".qsdibucon").css({"display":"none"});
+        $("#").css({"display":"block","text-align":"center"});
+          $("#inptext").css({
+          "width":"195px",
+          "height":"35px",
+          "line-height":"35px",
+          "font-size":"12px"
+          });
+          $("#inpsubmit").css({
+          "width":"92px",
+          "height":"35px",
+          "line-height":"35px",
+          "font-size":"12px"
+          });
+//        头部菜单
+          $(".caidantext").hide();
+          $("#omjdjsj02").show();
+          $(".dpcaidan").hide();
+         }else{
+          $(".caidantext").show();
+          $("#omjdjsj02").hide();
+          $(".caisecond").hide();
+          $(".omjcha").hide();
+         }
+          //搜索框部分结束
+
+    
+        
+
+    }) //import---1--
+})//import---2--
+        
+        
+        
+      
+
+        </script>
+      
+      
+ <script type="text/javascript">
+$(document).ready(function(){
+  $("#omjdjsj").click(function(){
+    $(".dpcaidan").show();
+    $("body").parent().css("overflow-y","hidden");
+  });
+  $(".omjguanbi").click(function(){
+    $(".dpcaidan").hide();
+    $(".omjsecond").hide();
+    
+    $("body").parent().css("overflow-y","auto");
+  });
+  $(".dpcp001").click(function(){
+    $(".omjsecond").show();
+    
+  });
+  $("#omjdjsj02").click(function(){
+    $(this).hide();
+    $(".omjcha").show();
+    $(".caisecond").show();
+    $("body").parent().css("overflow-y","hidden");
+    $("body").parent().css("overflow-x","hidden");
+  });
+  $(".omjcha").click(function(){
+    $(this).hide();
+    $("#omjdjsj02").show();
+    $(".caisecond").hide();
+    $("body").parent().css("overflow-y","auto");
+  })
+  
+ })
+
+  
+ </script>
+<header role="banner" class="omjheader">
+      <!--大屏排版-->
+      <div class="omjheacon">
+        <div class="omjcaidan01">
+          <span class="caidantext"><img src="img/headcaidan001.png" width="22" height="22" id="omjdjsj">菜单 </span>
+          <img src="img/headcaidan002.png" width="22" height="22" id="omjdjsj02">
+          <span class="omjcha">×</span>
+          <div class="dpcaidan">
+            <!--点击关闭部分-->
+            <div class="omjguanbi">
+              × &nbsp; 关闭
+            </div>
+              <ul class="dpcaidancon">
+                <li class="dpcp001">
+                    <div class="dpcdpic">
+                      <img src="img/omjtoucaidan.gif" width="30" height="30">
+                    </div>
+                    <h3>产品系列</h3>
+                    <!--第二个菜单-->
+                    <div class="omjsecond">
+                      <h4>腕表</h4>
+                      <ol>
+                        <li><img src="img/omjwanbiao01.png" width="80" height="45"></li>
+                        <li><img src="img/omjwanbiao01.png" width="80" height="45"></li>
+                        <li><img src="img/omjwanbiao01.png" width="80" height="45"></li>
+                        <li><img src="img/omjwanbiao01.png" width="80" height="45"></li>
+                        <li class="omjtebie">特别系列</li>
+                        <li class="omjsousuo">腕表搜索</li>
+                        <li class="omjbeiyue">NATO 北约军用表带</li>
+                        <li class="omjbeiyue">欧米茄华贵珠宝系列</li>
+                      </ol>
+                    </div>
+                </li>
+              
+               <li>
+                    <div class="dpcdpic">
+                      <img src="img/omjtoucaidan.gif" width="30" height="30">
+                    </div>
+                    <h3>欧米茄世界</h3>
+                </li>
+               <li>
+                    <div class="dpcdpic">
+                      <img src="img/omjtoucaidan.gif" width="30" height="30">
+                    </div>
+                    <h3>新闻资讯与品牌故事</h3>
+                </li>
+                 <li>
+                    <div class="dpcdpic">
+                      <img src="img/omjtoucaidan.gif" width="30" height="30">
+                    </div>
+                    <h3>旗舰店查询</h3>
+                </li>
+                 <li>
+                    <div class="dpcdpic">
+                      <img src="img/omjtoucaidan.gif" width="30" height="30">
+                    </div>
+                    <h3>客户服务</h3>
+                </li>
+              </ul>
+          </div>
+          
+          <div class="caisecond">
+            <ul>
+              <li>MY OMEGA</li>
+              <li>产品系列</li>
+              <li>欧米茄世界</li>
+              <li>新闻资讯与品牌故事</li>
+              <li>旗舰店查询</li>
+              <li>客户服务</li>
+              <li>语言</li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        <div class="omjlogo">
+          <img src="img/logo.svg" width="55" height="55">
+        </div>
+        
+        
+        
+        
+      </div>
+    
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--头部结束-->
+<main role="main">
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/dalun001 (1).jpg" >
+    </div>
+    <div class="item">
+      <img src="img/dalun001 (2).jpg" >
+    </div>
+
+  </div>
+
+</div>
+<div class="page_contents container-fluid secondxz">
+    <div class="row">
+        <div class="col-sm-12 redxz">
+           欧米茄星座系列曼哈顿女士腕表
+        </div>
+        <div class="col-sm-12 redxz01">
+           探索经典女士腕表的全新造型,现代风格为经典表款更添优雅美感.
+        </div>
+        <div class="col-sm-12 redxz02">
+          <a href="#">探索此系列</a>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/omjdisablunomj.js"></script>
+
+
+
+
+
+	
+	
+<div class="page_contents container secondxz">
+    <div class="row">
+        <div class="col-sm-12 redxz">
+           欧米茄海马系列300米潜水表
+        </div>
+        <div class="col-sm-12 redxz01">
+           探索经典女士腕表的全新造型,现代风格为经典表款更添优雅美感.
+        </div>
+        <!--<div class="col-sm-12 redxz02">
+          <a href="#">探索此系列
+        </div>-->
+    </div>
+</div>
+
+<div class="container shanxianlb">
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                   <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+               </ol>
+               <div class="carousel-inner" role="listbox">
+                   <div class="item active">
+                       <img src="img/shanxianlb01 (1).jpg" />
+                   </div>
+                   <div class="item">
+                     
+                         <img src="img/shanxianlb01 (2).jpg">
+                        
+                   </div>
+                    <div class="item">
+                       <img src="img/shanxianlb01 (3).jpg">
+                   </div>
+                    <div class="item">
+                       <img src="img/shanxianlb01 (4).jpg">
+                   </div>
+               </div>
+              
+           </div>
+		</div>
+	</div>
+</div>
+
+
+<!-- <script type="text/javascript" src="js/omjdisablunomj.js"></script> -->
+
+<div class="page_contents container ">
+    <div class="row">
+    	<div class="col-sm-5">
+    		<img src="img/hongpai.jpg" width="450">
+    	</div>
+        <div class="col-sm-7 redxz">
+         至臻天文台表卓越品<br>质非凡升级
+        </div>
+        <div class="col-sm-7 redxz01">
+           探索欧米茄至臻天文台表的优势，了解革命<br>与认证体系如何使欧米茄腕表到达制表业
+        </div>
+        <div class="col-sm-7 redxz02">
+          <a href="#">探索更多
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid zuidatu">
+	<div class="row">
+	<div class="col-sm-12 col-md-6">
+		<img src="img/zuidatu.jpg" width="677" height="905" />
+	</div>
+	<div class="col-sm-12 col-md-6">
+		<img src="img/zuida01 (1).png" />
+		<img src="img/zuida01 (2).png" />
+		
+	</div>
+	<div class="col-sm-12 col-md-6">
+		<img src="img/zuida01 (3).png" />
+		<img src="img/zuida01 (4).png" />
+	</div>
+	</div>
+</div>
+
+
+<div class="page_contents container">
+    <div class="row">
+        <div class="col-sm-12 redxz">
+           无尽之蓝
+        </div>
+        <div class="col-sm-12 redxz01">
+          从天蓝色的表盘到午夜幽兰的表壳,欧米茄以细腻精巧的方式生动诠释蓝色腕表
+        </div>
+        <div class="col-sm-12 redxz02">
+          <!--<a href="#">欧米茄蓝色表款</a>-->
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/shanxianlb01 (2).jpg" >
+    </div>
+    <div class="item">
+      <img src="img/shanxianlb01 (1).jpg" >
+    </div>
+    <div class="item">
+      <img src="img/shanxianlb01 (4).jpg" >
+    </div>
+    <div class="item">
+      <img src="img/shanxianlb01 (3).jpg">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  </a>-->
+</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			 <div class="slide-content">
+           
+            <div class="slide-item">
+                <div class="slide-item-box">
+                    <div class="hd">
+                        <a href="javascript:;" class="prev prev-bg"></a>
+                        <a href="javascript:;" class="next next-bg"></a>
+                    </div>
+                    <div class="bd slide-item-body">
+                        <ul class="clearfix" style="overflow:visible">
+                            <li>
+                                <a href="#">
+                                    <div class="new-img">
+                                        <img src="img/story-01 (1).jpg" alt="">
+                                    </div>
+                                    <div class="new-body">
+                                        <p class="new-body-title">在线教育线下交流会，进阶网校运营达人的第一步！</p>
+                                        <p class="new-body-text">为帮助网校解决运营过程中遇到的一些难题，4月25日，杭州阔知网络科技有限公司邀请到了众多一线网校运营人和行业大咖，开展了第8期专为在线教育从业者量身定制的线下交流会——阔知教育私享会。</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new-img">
+                                        <img src="img/story-01 (2).jpg" alt="">
+                                    </div>
+                                    <div class="new-body">
+                                        <p class="new-body-title">在线教育线下交流会，进阶网校运营达人的第一步！</p>
+                                        <p class="new-body-text">为帮助网校解决运营过程中遇到的一些难题，4月25日，杭州阔知网络科技有限公司邀请到了众多一线网校运营人和行业大咖，开展了第8期专为在线教育从业者量身定制的线下交流会——阔知教育私享会。</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new-img">
+                                        <img src="img/story-01 (3).jpg" alt="">
+                                    </div>
+                                    <div class="new-body">
+                                        <p class="new-body-title">在线教育线下交流会，进阶网校运营达人的第一步！</p>
+                                        <p class="new-body-text">为帮助网校解决运营过程中遇到的一些难题，4月25日，杭州阔知网络科技有限公司邀请到了众多一线网校运营人和行业大咖，开展了第8期专为在线教育从业者量身定制的线下交流会——阔知教育私享会。</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new-img">
+                                        <img src="img/jingbiao01.jpg" alt="">
+                                    </div>
+                                    <div class="new-body">
+                                        <p class="new-body-title">在线教育线下交流会，进阶网校运营达人的第一步！</p>
+                                        <p class="new-body-text">为帮助网校解决运营过程中遇到的一些难题，4月25日，杭州阔知网络科技有限公司邀请到了众多一线网校运营人和行业大咖，开展了第8期专为在线教育从业者量身定制的线下交流会——阔知教育私享会。</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new-img">
+                                        <img src="img/story-01 (2).jpg" alt="">
+                                    </div>
+                                    <div class="new-body">
+                                        <p class="new-body-title">在线教育线下交流会，进阶网校运营达人的第一步！</p>
+                                        <p class="new-body-text">为帮助网校解决运营过程中遇到的一些难题，4月25日，杭州阔知网络科技有限公司邀请到了众多一线网校运营人和行业大咖，开展了第8期专为在线教育从业者量身定制的线下交流会——阔知教育私享会。</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new-img">
+                                        <img src="img/story-01 (3).jpg" alt="">
+                                    </div>
+                                    <div class="new-body">
+                                        <p class="new-body-title">在线教育线下交流会，进阶网校运营达人的第一步！</p>
+                                        <p class="new-body-text">为帮助网校解决运营过程中遇到的一些难题，4月25日，杭州阔知网络科技有限公司邀请到了众多一线网校运营人和行业大咖，开展了第8期专为在线教育从业者量身定制的线下交流会——阔知教育私享会。</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+        <script type="text/javascript">
+            jQuery(".slide-item-box").slide({
+                titCell: ".hd ul",
+                mainCell: ".bd ul",
+                autoPage: true,
+                effect: "leftLoop",
+                autoPlay: false,
+                scroll: 3,
+                vis: 3,
+                delayTime: 700,
+                trigger: "click"
+            })
+        </script>
+		</div>
+	</div>
+</div>
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer role="contentinfo">
+            	<!--底部搜索部分-->
+        		<div class="container">
+        			<div class="row">
+        				<div class="col-md-12 col-sm-12 fosou">
+        					<div class="fosoutop">
+        						<h3>欧米茄通讯</h3>
+        						<p>订阅我们的通讯</p>
+        					</div>
+        					<div class="fosoucon">
+        						<input id="inptext" type="text" placeholder="输入你的邮箱" />
+        						<input type="submit" value="提交" id="inpsubmit" />
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+            <!--底部搜索部分结束-->
+           <div class="container-fluid qsdibu">
+           		<div class="row">
+           	<div class="col-md-3 qsdibucon">
+                <h3>产品系列</h3>
+                <ul>
+                    <li>尊霸腕表</li>
+                    <li>星座系列</li>
+                    <li>海马300</li>
+                    <li>深海之黑</li>
+                    <li>海洋宇宙600米腕表</li>
+                    <li>海马系列AQUA TERRA 150米腕表</li>
+                    <li>300米潜水表</li>
+                    <li>月球表</li>
+                    <li>月之暗面</li>
+                    <li>皓月之灰</li>
+                    <li>首枚欧米茄太空表</li>
+                    <li>超霸'57腕表</li>
+                    <li>超霸系列X‑33“帆船赛”腕表</li>
+                    <li>LADYMATIC腕表</li>
+                    <li>HOUR VISION腕表</li>
+                    <li>碟飞名典腕表</li>
+                    <li>碟飞典雅系列腕表</li>
+                    <li>陀飞轮腕表</li>
+                </ul>
+                
+                 <h3>专卖店位置</h3>
+                <ul>
+                    <li> 寻找专卖店</li>
+                    <li>我的位置</li>
+                    
+                    
+                </ul>
+            </div>
+           
+            <div class="col-md-3 qsdibucon">
+                <h3>至臻天文台表</h3>
+                <ul>
+                    <li> 前所未有的检测认证</li>
+                    <li>查看我的测试结果</li>
+                    <li>认证卡片扫描IPHONE应用程序</li>
+                    
+                </ul>
+              
+                 <h3>欧米茄世界</h3>
+                <ul>
+                    <li>   奥运会</li>
+                    <li>运动项目</li>
+                    <li>制表工艺</li>
+                    <li>新闻资讯与品牌故事</li>
+                    <li>奥比斯组织</li>
+                    <li>我们的地球</li>
+                    <li>阳光动力计划</li>
+                    <li>海洋情缘</li>
+                    <li>詹姆斯·邦德</li>
+                    <li>欧米茄银幕传奇</li>
+                    <li>向超霸腕表致敬</li>
+                    <li>欧米茄博物馆</li>
+                    <li>古董表</li>
+                    <li>责任珠宝业委员会
+</li>
+                    
+                </ul>
+            </div>
+            
+            <div class="col-md-3 qsdibucon">
+                <h3>客户服务</h3>
+                <ul>
+                    <li>保养您的欧米茄腕表</li>
+                    <li>欧米茄腕表的保养维修</li>
+                    <li>检修与价格</li>
+                    <li>寻找维修中心</li>
+                    <li>订阅档案摘录</li>
+                    <li>订阅产品目录</li>
+                    <li>客户资讯系统（CIS）</li>
+                </ul>
+            </div>
+            
+             <div class="col-md-3 qsdibucon">
+                <h3>更多</h3>
+                <ul>
+                    <li>欧米茄通讯</li>
+                </ul>
+                <div class="folxwm">联系我们</div>
+               
+            </div>
+         <div id="fologo" class="col-sm-12 col-md-3"><img src="img/fologo.png" width="297" height="37"></div>
+        </div>
+    </div>      
+           	
+</footer>
+      
+      
+       <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+
+       
+     
+    </body>
+</html>
