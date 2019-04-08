@@ -1,0 +1,48 @@
+.cm_box{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+/*业务案例*/
+.cm_ywtitle{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	align-items: center;
+}
+.cm_ywtitle b{
+	display: block;
+	width: 32%;
+	height: 1px;
+	border-bottom: 3px solid #dedede;
+}
+.cm_ywtitle h2{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/*banner*/
+.cm_banner ul{
+	display: flex;
+	margin-top: 30px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.cm_banner ul li{
+	margin-top: 25px;
+	text-align: center;
+}
+.cm_banner ul li img{
+	margin-bottom: 8px;
+}
+.cm_banner ul li a{
+	color: #333;
+	font-size: 15px;
+	font-weight: bolder;;
+}
+.cm_twopic{
+	margin-top: 30px;
+}
+.cm_twopic img{
+	margin-top: 10px;
+}
