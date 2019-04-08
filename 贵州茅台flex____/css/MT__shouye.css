@@ -1,0 +1,142 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	
+	display: block;
+}
+.sy_box{
+	width: 100%;
+	
+	margin: 0 auto;
+	max-width: 640px;
+	min-width: 320px;
+}
+/*顶部*/
+.sy_top{
+	height: 70px;
+	line-height: 70px;
+	background: #ddd;
+	display: flex;
+	justify-content: space-between;
+}
+.sy_top a:nth-child(1){
+	margin: 10px 0 0 10px;
+}
+.sy_top a:nth-child(2){
+	margin: 10px 10px 0 0;
+}
+/* 轮播部分 */
+
+.sy_lunbo img{
+	width: 100%;
+}
+/* 新闻资讯 */
+.sy_news{
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+	border-bottom: 3px solid #ff0000;
+	padding-bottom: 28px;
+}
+.sy_news h2{
+	color: #000;
+	
+	font-weight: bolder;
+	font-size: 28px;
+}
+.sy_news span{
+	color: #555;
+	font-size: 25px;
+}
+/* con*/
+.sy_newscon ul{
+	display: flex;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 15px;
+	margin-bottom: 60px;
+	flex-wrap: wrap;
+}
+.sy_newscon ul li{
+	width: 33.3%;
+	font-size: 20px;
+}
+/* pic */
+.sy_newspic{
+	display: flex;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #333;
+	margin-top: 20px;
+}
+.sy_newspic a:nth-child(1){
+	flex: 1;
+}
+
+.sy_newspic a:nth-child(2){
+	color: #000;
+	font-size: 16px;
+	flex: 4;
+	margin-left: 10px;
+	/* align-content: flex-start; */
+}
+.sy_newspic a:nth-child(2):hover{
+	color: orange;
+}
+/* text */
+.sy_newstext{
+	height: 90px;
+	line-height: 90px;
+	border-bottom: 1px dashed #333;
+}
+.sy_newstext a{
+	color: #000;
+	font-size: 16px;
+}
+.sy_newstext a:hover{
+	color: orange;
+}
+/* 产品中心 */
+.sy_lunbo01{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.sy_lunbo01 img{
+	width: 100%;
+}
+/* 服务中心 */
+.sy_fwzx{
+	display: flex;
+	height: 35px;
+	line-height: 35px;
+	margin: 25px 0 130px 15px;
+	flex-wrap: wrap;
+}
+.sy_fwzx li{
+	width: 33.3%;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*底部*/
+.sy_dibu{
+	height: 75px;
+	background: #c40d2e;
+	margin-top: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+.sy_dibu p{
+	color: #fff;
+	font-size: 12px;
+}
+.sy_dibu p:nth-child(1){
+	margin-top: 10px;
+}

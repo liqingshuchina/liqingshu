@@ -1,0 +1,152 @@
+.zb_box{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	
+	margin: 0 auto;
+}
+.zb_baojia ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25px;
+}
+.zb_baojia ul li{
+	width: 21%;
+	height: 35px;
+	line-height: 35px;
+	color: #555;
+	font-size: 17px;
+	text-align: center;
+	border: 2px solid #dedede;
+	border-radius: 10px;
+}
+.zb_beijing{
+	width: 99%;
+	height: 400px;
+	margin: 20px auto;
+	background:url(../img/beijingzb.jpg) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+}
+.zb_beijingcon{
+	align-self: flex-end;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.zb_beijingcon h2{
+	font-size: 40px;
+	color: #fff;
+	margin-top: 10px;
+}
+/*搜索框部分*/
+.zb_input{
+	margin-bottom: 30px;
+}
+.zb_input h6{
+	color: #333;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-left: 15px;
+}
+.zb_input h6 span{
+	color: red;
+}
+.zb_input input{
+	width: 70%;
+	height: 40px;
+	border: 1px solid #dedede;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.zb_input:nth-child(3) input{
+	width: 40%;
+}
+.zb_slect{
+	margin-bottom: 30px;
+}
+.zb_slect h6{
+	color: #333;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-left: 15px;
+}
+.zb_slect select{
+	width: 40%;
+	height: 40px;
+	border: 1px solid #dedede;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.zb_style{
+	margin-bottom: 30px;
+}
+.zb_style h6{
+	color: #333;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-left: 15px;
+}
+.zb_style ul{
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.zb_style ul li{
+	height: 30px;
+	align-self: center;
+	text-align: center;
+	width: 25%;
+	margin-top: 10px;
+	color: #555;
+	font-size: 16px;
+
+	display: flex;
+/*	justify-content: center;*/
+	align-items: center;
+}
+.zb_style ul li input{
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	margin-right: 8px;
+	border: 1px solid #dedede;
+}
+.zb_style ul li b{
+	display: block;
+	margin-top: 3px;
+}
+/*描述*/
+.zb_miaoshu{
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.zb_miaoshu:hover{
+	background: #f5f5f5;
+}
+.zb_miaoshu p{
+	margin-left: 15px;
+	color: #333;
+	font-size: 13px;
+	margin-top: 3px;
+}
+.zb_miaoshu input{
+	width: 80%;
+	height: 150px;
+	border: 1px solid #dedede;
+	margin: 25px 0 0 10%;
+}
+.zb_tijiao a{
+	display: block;
+	width: 85%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #3f5a85;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bolder;
+	margin: 50px auto 30px;
+}

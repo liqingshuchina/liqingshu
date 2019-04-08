@@ -1,0 +1,76 @@
+.xz_mnewsbox{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+.mn_xzdong{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.mn_xzdong ul{
+	display: flex;
+}
+.mn_xzdong ul li{
+	flex: 1;
+	text-align: center;
+}
+.mn_xzdong ul li img{
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+	margin-bottom: 10px;
+}
+.mn_xzdong ul li a{
+	color: #555;
+	font-size: 15px;
+	font-weight: bolder;
+}
+/*数字年份部分*/
+.mn_year{
+	width: 95%;
+	margin: 15px auto;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.mn_year ul{
+	display: flex;
+	margin-left: 25px;
+	margin-bottom: 30px;
+}
+.mn_year ul li{
+	color: #000;
+	font-size: 19px;
+	font-weight: bolder;
+	margin-right: 30px;
+}
+/*banner*/ 
+.mn_banner{
+	display: flex;
+}
+.mn_bannerpic{
+	flex: 1;
+	margin-top: 10px;
+}
+.mn_bannertext{
+	flex: 3;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 20px;
+}
+.mn_bannertext h4{
+	color: #555;
+	font-size: 17px;
+}
+.mn_bannertext h5{
+	width: 40px;
+	color: #555;
+	font-size: 17px;
+	border-bottom: 5px solid #0000ff;
+}
+.mn_bannertext p{
+	color: #000;
+	font-size: 13px;
+	margin-top: 10px;
+}

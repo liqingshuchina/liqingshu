@@ -1,0 +1,37 @@
+.gd_box{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	
+	margin: 0 auto;
+}
+.gd_bantop{
+	color: #000;
+	font-size: 30px;
+	font-weight: bolder;
+	height: 50px;
+	line-height: 50px;
+	margin:30px 0 35px 0;
+	border-bottom: 3px solid #FF0000;
+}
+.gd_banpic{
+	margin-bottom: 15px;
+}
+.gd_banpic img{
+	width: 100%;
+}
+/*baner_con部分/*/
+.gd_bancon ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.gd_bancon ul li{
+	width: 33.3%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+}
+.gd_bancon ul li a{
+	font-size: 18px;
+	color: #0033cc;
+}
